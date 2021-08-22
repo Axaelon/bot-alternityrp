@@ -4,5 +4,23 @@
   },
   "scripts": {
     "start": "index2.js"
-  }
+  },
+  "name": "bot-alternityrp",
+  "version": "1.0.0",
+  "main": "index2.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axaelon/bot-alternityrp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Axaelon/bot-alternityrp/issues"
+  },
+  "engines":{
+    "node":"16.7.0"
+  },
+  "homepage": "https://github.com/Axaelon/bot-alternityrp#readme",
+  "description": ""
 }
