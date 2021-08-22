@@ -16,7 +16,7 @@ Client.on("messageCreate", message => {
     if (message.author.bot) return;
    
     if(message.content === prefix + "ip") {
-        message.reply("connect game01.spacescloud.site:2511")
+        message.channel.send("connect game01.spacescloud.site:2511")
     }
 
     
