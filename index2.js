@@ -27,6 +27,14 @@ Client.on("messageCreate", message => {
         message.channel.send("**[F1] Interface Boutique \n[F2] Interface clé(s) véhicule(s) \n[F3] Portée de la voix \n[F5] Interface personnel \n[F6] Interface entreprise \n[F7] Interface gang \n[F8] Console FiveM \n[F12] Prendre un screen (steam) \n[U] Fermer le véhicule \n[K] Interface animations \n[L] Ouvrir le coffre \n[G] Sortir le téléphone \n[B] Pointer du doigt \n[²] Lever les bras \n[Y] Interface vêtement \n[T] Ouvrir le tchat \n[F9] Radio \n[W] Voix (crier.chuchoter.normal**)")
     }
 
+    if(message.content === prefix + "étaton") {
+        message.channel.send("**Serveur on, connectez vous !!!**")
+    }
+
+    if(message.content === prefix + "étatoff") {
+        message.channel.send("**Le serveur est OFF pendant un petit moment, excusez nous pour ce désagrément**")
+    }
+
     
 });
 
