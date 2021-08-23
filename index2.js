@@ -16,11 +16,11 @@ Client.on("messageCreate", message => {
     if (message.author.bot) return;
    
     if(message.content === prefix + "ip") {
-        message.channel.send("**[ F8 ] : connect game01.spacescloud.site:2511**")
+        message.channel.send("**[ F8 ] : connect game01.spacescloud.site:2511** \n||@here||")
     }
     
     if(message.content === prefix + "reglement") {
-        message.channel.send("**Tous le monde doit lire le règlement ! Nul ne doit l'ignorer !** \nhttps://docs.google.com/document/d/1YrmaSUsxAfOuepf52wmlKKtZy4KysO91GSljZLcX7hc/edit?usp=sharing")
+        message.channel.send("**Tous le monde doit lire le règlement ! Nul ne doit l'ignorer !** \nhttps://docs.google.com/document/d/1YrmaSUsxAfOuepf52wmlKKtZy4KysO91GSljZLcX7hc/edit?usp=sharing \n||@here||")
     }
 
     if(message.content === prefix + "touches") {
