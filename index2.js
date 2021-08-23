@@ -20,7 +20,7 @@ Client.on("messageCreate", message => {
     }
     
     if(message.content === prefix + "reglement") {
-        message.channel.send("**Tous le monde doit lire le règlement ! Nul ne doit l'ignorer !** \nhttps://docs.google.com/document/d/1YrmaSUsxAfOuepf52wmlKKtZy4KysO91GSljZLcX7hc/edit?usp=sharing \n||@here||")
+        message.channel.send("**Tous le monde doit lire le règlement ! Nul ne doit l'ignorer !** \nhttps://docs.google.com/document/d/1YrmaSUsxAfOuepf52wmlKKtZy4KysO91GSljZLcX7hc/edit?usp=sharing \n||@everyone||")
     }
 
     if(message.content === prefix + "touches") {
