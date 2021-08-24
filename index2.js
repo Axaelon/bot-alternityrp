@@ -34,7 +34,10 @@ Client.on("messageCreate", message => {
     if(message.content === prefix + "étatoff") {
         message.channel.send("**Le serveur est OFF pendant un petit moment, excusez nous pour ce désagrément** \n||@here||")
     }
-
+    
+    if(message.content === prefix + "help") {
+        message.channel.send("Si vous avez un problème/question (que ça soit ingame ou sur le discord) vous pouvez ouvrir un ticket et decrire votre problème/question et des membres du Staff vont y répondre \n||@everyone||")
+    }
     
 });
 
