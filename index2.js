@@ -39,7 +39,9 @@ Client.on("messageCreate", message => {
         message.channel.send("Si vous avez un problème/question (que ça soit ingame ou sur le discord) vous pouvez ouvrir un ticket et decrire votre problème/question et des membres du Staff vont y répondre \n||@everyone||")
     }
     
-    
+    if(message.content === prefix + "commandes") {
+        message.channel.send("**?ip \n?reglement \n?touches \n?étaton \n?étatoff \n?help**")
+    }
 
 });
 
