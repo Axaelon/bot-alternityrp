@@ -40,7 +40,7 @@ Client.on("messageCreate", message => {
     }
     
     if(message.content === prefix + "commandes") {
-        message.channel.send("**?ip \n?reglement \n?touches \n?étaton \n?étatoff \n?help \n?discord \n?discordill**")
+        message.channel.send("**?ip \n?reglement \n?touches \n?étaton \n?étatoff \n?help \n?discord \n?discordill \n?connectezvous**")
     }
 
     if(message.content === prefix + "discord") {
