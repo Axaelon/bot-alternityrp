@@ -40,7 +40,15 @@ Client.on("messageCreate", message => {
     }
     
     if(message.content === prefix + "commandes") {
-        message.channel.send("**?ip \n?reglement \n?touches \n?étaton \n?étatoff \n?help**")
+        message.channel.send("**?ip \n?reglement \n?touches \n?étaton \n?étatoff \n?help \n?discord \n?discordill**")
+    }
+
+    if(message.content === prefix + "discord") {
+        message.channel.send("Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des entreprises. \n||https://discord.gg/jAjk8FNGJ5|| \n||https://discord.gg/FCy4HbFurh|| \n||https://discord.gg/rmDJ58qTnD|| \n||https://discord.gg/fhR9eK2Aem|| \n||https://discord.gg/qcRcBZV7qa|| \n|| || \n||@everyone||")
+    }
+
+    if(message.content === prefix + "discordill") {
+        message.channel.send("Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des gangs/cartels/organisations et tous ce qui a un rapport avec l'illégal. \n|| || \n|| || \n|| || \n|| || \n|| || \n|| || \n|| || \n|| || \n||@everyone||")
     }
 
 });
