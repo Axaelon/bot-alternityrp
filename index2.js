@@ -52,7 +52,7 @@ Client.on("messageCreate", message => {
     }
 
     if(message.content === prefix + "connectezvous") {
-        message.channel.send("**Connectez vous !!! ** ||here||")
+        message.channel.send("**Connectez vous !!! ** ||@here||")
     }
 
 });
