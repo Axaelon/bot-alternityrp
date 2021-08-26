@@ -51,6 +51,10 @@ Client.on("messageCreate", message => {
         message.channel.send("**Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des gangs/cartels/organisations et tous ce qui a un rapport avec l'illégal.** \nhttps://discord.gg/BHADVVdvVt \nhttps://discord.gg/Aatx8RpNZ5 \nhttps://discord.gg/h8ExzeAd8D \nhttps://discord.gg/NDbbSYa26V \nhttps://discord.gg/ZJDSS7Jfkn \nhttps://discord.gg/FmSSjdY2pp \nhttps://discord.gg/sqmAUKrnkx \n@here")
     }
 
+    if(message.content === prefix + "connectezvous") {
+        message.channel.send("**Connectez vous !!! ** ||here||")
+    }
+
 });
 
 Client.login(process.env.TOKEN);
