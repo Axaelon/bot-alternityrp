@@ -44,11 +44,11 @@ Client.on("messageCreate", message => {
     }
 
     if(message.content === prefix + "discord") {
-        message.channel.send("Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des entreprises. \nhttps://discord.gg/jAjk8FNGJ5 \nhttps://discord.gg/FCy4HbFurh \nhttps://discord.gg/rmDJ58qTnD \nhttps://discord.gg/fhR9eK2Aem \nhttps://discord.gg/qcRcBZV7qa \n||@everyone||")
+        message.channel.send("**Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des entreprises.** \nhttps://discord.gg/jAjk8FNGJ5 \nhttps://discord.gg/FCy4HbFurh \nhttps://discord.gg/rmDJ58qTnD \nhttps://discord.gg/fhR9eK2Aem \nhttps://discord.gg/qcRcBZV7qa \n||@everyone||")
     }
 
     if(message.content === prefix + "discordill") {
-        message.channel.send("Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des gangs/cartels/organisations et tous ce qui a un rapport avec l'illégal. \n|| || \n|| || \n|| || \n|| || \n|| || \n|| || \n|| || \n|| || \n||@everyone||")
+        message.channel.send("**Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des gangs/cartels/organisations et tous ce qui a un rapport avec l'illégal.** \n|| || \n|| || \n|| || \n|| || \n|| || \n|| || \n|| || \n|| || \n||@everyone||")
     }
 
 });
