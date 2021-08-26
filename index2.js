@@ -44,7 +44,7 @@ Client.on("messageCreate", message => {
     }
 
     if(message.content === prefix + "discord") {
-        message.channel.send("Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des entreprises. \n||https://discord.gg/jAjk8FNGJ5|| \n||https://discord.gg/FCy4HbFurh|| \n||https://discord.gg/rmDJ58qTnD|| \n||https://discord.gg/fhR9eK2Aem|| \n||https://discord.gg/qcRcBZV7qa|| \n|| || \n||@everyone||")
+        message.channel.send("Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des entreprises. \nhttps://discord.gg/jAjk8FNGJ5 \nhttps://discord.gg/FCy4HbFurh \nhttps://discord.gg/rmDJ58qTnD \nhttps://discord.gg/fhR9eK2Aem \nhttps://discord.gg/qcRcBZV7qa \n|||| \n||@everyone||")
     }
 
     if(message.content === prefix + "discordill") {
