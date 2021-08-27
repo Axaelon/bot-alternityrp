@@ -74,6 +74,7 @@ Client.on("messageCreate", message => {
     if(message.content === "salut") {
         message.reply("Salut à toi, bon jeu sur **AlternityRP**")
     }
+    
 
 });
 
