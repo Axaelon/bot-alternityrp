@@ -16,7 +16,7 @@ Client.on("messageCreate", message => {
     if (message.author.bot) return;
 
     if(message.content === prefix + "commandes") {
-        message.channel.send("**?ip \n?reglement \n?touches \n?étaton \n?étatoff \n?help \n?discord \n?discordill \n?connectezvous \n?invitation \n?recrutementstaff**")
+        message.channel.send("**?ip \n?reglement \n?touches \n?étaton \n?étatoff \n?help \n?discord \n?discordill \n?connectezvous \n?invitation \n?recrutementstaff \n?reboot**")
     }
    
     if(message.content === prefix + "ip") {
@@ -61,6 +61,10 @@ Client.on("messageCreate", message => {
 
     if(message.content === prefix + "recrutementstaff") {
         message.channel.send("**Pour devenir STAFF, vous devez réaliser une candidature avec le modèle si dessous. Bon courage !** \nhttps://docs.google.com/document/d/115hnTEDIE1C6Zigw7jI1qRzsQi1s0PFAOZlY7gisuCs/edit?usp=sharing \n||@everyone||")
+    }
+
+    if(message.content === prefix + "reboot") {
+        message.channel.send("**REBOOT !!!** ||@everyone||")
     }
 
     if(message.content === "Salut") {
