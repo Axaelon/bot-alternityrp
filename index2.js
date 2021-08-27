@@ -14,6 +14,10 @@ Client.on("ready", () => {
 
 Client.on("messageCreate", message => {
     if (message.author.bot) return;
+
+    if(message.content === prefix + "commandes") {
+        message.channel.send("**?ip \n?reglement \n?touches \n?étaton \n?étatoff \n?help \n?discord \n?discordill \n?connectezvous \n?invitation \n?recrutementstaff**")
+    }
    
     if(message.content === prefix + "ip") {
         message.channel.send("**[ F8 ] : connect game01.spacescloud.site:2511** \n||@here||")
@@ -38,10 +42,6 @@ Client.on("messageCreate", message => {
     if(message.content === prefix + "help") {
         message.channel.send("Si vous avez un problème/question (que ça soit ingame ou sur le discord) vous pouvez ouvrir un ticket et decrire votre problème/question et des membres du Staff vont y répondre \n||@everyone||")
     }
-    
-    if(message.content === prefix + "commandes") {
-        message.channel.send("**?ip \n?reglement \n?touches \n?étaton \n?étatoff \n?help \n?discord \n?discordill \n?connectezvous**")
-    }
 
     if(message.content === prefix + "discord") {
         message.channel.send("**Voici tous les serveurs discords annexes au serveur AlternityRP. Vous retrouverez ici, tous les serveurs discords des entreprises.** \nhttps://discord.gg/jAjk8FNGJ5 \nhttps://discord.gg/FCy4HbFurh \nhttps://discord.gg/rmDJ58qTnD \nhttps://discord.gg/fhR9eK2Aem \nhttps://discord.gg/qcRcBZV7qa \n||@everyone||")
@@ -53,6 +53,22 @@ Client.on("messageCreate", message => {
 
     if(message.content === prefix + "connectezvous") {
         message.channel.send("**Connectez vous !!! ** ||@here||")
+    }
+
+    if(message.content === prefix + "invitation") {
+        message.channel.send("Invitation a créer...")
+    }
+
+    if(message.content === prefix + "recrutementstaff") {
+        message.channel.send("**Pour devenir STAFF, vous devez réaliser une candidature avec le modèle si dessous. Bon courage !** \nhttps://docs.google.com/document/d/115hnTEDIE1C6Zigw7jI1qRzsQi1s0PFAOZlY7gisuCs/edit?usp=sharing \n||@everyone||")
+    }
+
+    if(message.content === "Salut") {
+        message.reply("Salut à toi, bon jeu sur **AlternityRP**")
+    }
+
+    if(message.content === "salut") {
+        message.reply("Salut à toi, bon jeu sur **AlternityRP**")
     }
 
 });
