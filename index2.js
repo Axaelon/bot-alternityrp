@@ -75,7 +75,7 @@ Client.on("messageCreate", message => {
         message.reply("Salut à toi, bon jeu sur **AlternityRP**")
     }
     
-    if(message.content === "annivazouf") {
+    if(message.content === prefix + "annivazouf") {
         message.channel.send("**Bon anniversaire** @Azouf - [BЯΞSOM]")
     }
 
