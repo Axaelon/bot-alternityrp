@@ -1,4 +1,6 @@
+const { MessageMentions } = require("discord.js");
 const Discord = require("discord.js");
+const { MembershipStates } = require("discord.js/typings/enums");
 const Client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
@@ -76,7 +78,7 @@ Client.on("messageCreate", message => {
     }
     
     if(message.content === prefix + "annivazouf") {
-        message.channel.send("**Bon anniversaire** @873536810440069130")
+        message.channel.send("**Bon anniversaire Azouf !!!**")
     }
 
 });
