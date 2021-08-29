@@ -76,7 +76,7 @@ Client.on("messageCreate", message => {
     }
     
     if(message.content === prefix + "annivazouf") {
-        message.channel.send("**Bon anniversaire** @Azouf - [BЯΞSOM]")
+        message.channel.send("**Bon anniversaire** @873536810440069130")
     }
 
 });
