@@ -1,6 +1,4 @@
-const { MessageMentions } = require("discord.js");
 const Discord = require("discord.js");
-const { MembershipStates } = require("discord.js/typings/enums");
 const Client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
