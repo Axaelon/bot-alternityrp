@@ -14,6 +14,10 @@ Client.on("ready", () => {
 
 Client.on("messageCreate", message => {
     if (message.author.bot) return;
+
+    if(messsage.content === "Je paye ma tournée !!!"){
+        message.channel.reply("Je te rejoins mon pote !!!")
+    }
 });
 
 Client.login(process.env.TOKEN);
