@@ -2,7 +2,8 @@ const Discord = require("discord.js");
 const Client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
-        Discord.Intents.FLAGS.GUILD_MESSAGES
+        Discord.Intents.FLAGS.GUILD_MESSAGES,
+        Discord.Intents.FLAGS.GUILD_MEMBERS
     ]
 });
 
@@ -14,7 +15,7 @@ Client.on("ready", () => {
 
 Client.on("messageCreate", message => {
 
-    if(messsage.content === "Je paye ma tournée !!!"){
+    if (messsage.content === "Je paye ma tournée !!!"){
         message.channel.reply("Je te rejoins mon pote !!!")
     }
 });
