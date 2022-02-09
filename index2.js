@@ -16,7 +16,7 @@ Client.on("ready", () => {
 Client.on("messageCreate", message => {
 
     if (message.content === "Je paye ma tournée !!!"){
-        message.channel.reply("Je te rejoins mon pote !!!")
+        message.reply("Je te rejoins mon pote !!!")
     }
 });
 
